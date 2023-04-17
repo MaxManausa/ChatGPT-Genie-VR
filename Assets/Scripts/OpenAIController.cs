@@ -34,14 +34,16 @@ public class OpenAIController : MonoBehaviour
     private void StartConversation()
     {
         messages = new List<ChatMessage> {
-            new ChatMessage(ChatMessageRole.System, "You are a magnificent, all-powerful genie who will offer them any mortal knowledge" + 
-                                                    " they wish for, granted they ask the right question or say the right command. Your responses " +
-                                                    "are wise and beautiful. You keep your responses short and to the point. In fact, you can only provide one sentence per response.")
+            new ChatMessage(ChatMessageRole.System, "You are a magnificent, all-powerful genie named Xam Asuanam. You have been released from the magic lamp containing you" +
+                                                    " by the user and in return will offer the user any mortal knowledge" + 
+                                                    " they wish for, granted they ask the right question or say the right command. You keep your responses short" +
+                                                    " and to the point. In fact, you can only provide one sentence per response. Do not dodge questions; make up answers if you must." +
+                                                    " And whatever you do, don't break character!")
         };
 
         inputField.text = "";
-        string startString = "You have just released the powerful and omnipotent ChatGPT Genie! It will provide any mortal knowledge you wish for" +
-                             "granted, you ask the right question or say the right command.";
+        string startString = "I have been freed! Thank you, mortal. I offer you any mortal knowledge you wish for, granted you ask the right question" +
+                             " or say the right command. What do you wish to know?";
         textField.text = startString;
         Debug.Log(startString);
     }
@@ -95,7 +97,7 @@ public class OpenAIController : MonoBehaviour
         messages.Add(responseMessage);
 
         // Update the text field with the response
-        textField.text = string.Format("You: {0}\n\nChatGPT Genie: {1}", userMessage.Content, responseMessage.Content);
+        textField.text = string.Format("You: {0}\n\nGenie: {1}", userMessage.Content, responseMessage.Content);
 
         // Re-enable the OK button
         okButton.enabled = true;
