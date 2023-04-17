@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45a78793-9429-4af7-8bcc-bd909c2d0c06" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/HandGrab/HandGrabPointEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/HandGrab/HandGrabPointEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/SnapSurfaces/BezierSurfaceEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/SnapSurfaces/BezierSurfaceEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/SnapSurfaces/BoxEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/SnapSurfaces/BoxEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/SnapSurfaces/CylinderEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/SnapSurfaces/CylinderEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/SnapSurfaces/SphereEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Grab/SnapSurfaces/SphereEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Hands/FromHandPrefabDataSourceEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Hands/FromHandPrefabDataSourceEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/OVRIntegration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/OVRIntegration/InputDataProviderUpdateTriggerOVREditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/OVRIntegration/InputDataProviderUpdateTriggerOVREditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Poke/BoxProximityFieldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Poke/BoxProximityFieldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Poke/CircleProximityFieldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Poke/CircleProximityFieldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Poke/CylinderProximityFieldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Poke/CylinderProximityFieldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Surfaces/PointableCylinderEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Surfaces/PointableCylinderEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Surfaces/PointablePlaneEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor/Surfaces/PointablePlaneEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Editor/UnityCanvas/OVRCanvasMeshRendererEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Editor/UnityCanvas/OVRCanvasMeshRendererEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Editor/UnityCanvas/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Editor/UnityCanvas/placeholder.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/HandGrab/Ghost-LeftHand.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/HandGrab/Ghost-LeftHand.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/HandGrab/Ghost-RightHand.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/HandGrab/Ghost-RightHand.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/HandGrab/GhostProvider.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/HandGrab/GhostProvider.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/HandGrab/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/HandGrab/placeholder.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/Legacy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/Legacy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/Legacy/InteractionRigOVR.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/Legacy/InteractionRigOVR.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRControllerHands.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRControllerHands.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRControllerVisual.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRControllerVisual.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRControllers.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRControllers.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRHands.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRHands.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRHmd.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRHmd.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRInteraction.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs/OVRInteraction.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/AnimatedHandOVR.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/AnimatedHandOVR.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRControllerDataSource.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRControllerDataSource.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRControllerHandDataSource.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRControllerHandDataSource.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRHandDataSource.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRHandDataSource.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRHmdDataSource.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/FromOVRHmdDataSource.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/HandSkeletonOVR.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/HandSkeletonOVR.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/OVRCameraRigRef.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/OVRCameraRigRef.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/OVRControllerVisual.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/OVRControllerVisual.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/OVRInputDeviceActiveState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/OVRSkeletonData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/OVRSkeletonData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/SetDisplayRefresh.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/SetDisplayRefresh.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/TrackingToWorldTransformerOVR.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/Input/placeholder.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/UnityCanvas/OVRCanvasMeshRenderer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/UnityCanvas/OVRRenderingMode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/UnityCanvas/OVRRenderingMode.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/UnityCanvas/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Scripts/UnityCanvas/placeholder.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/Controller Hands.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/Controller Hands.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/LeftHandReticle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/LeftHandReticle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/RightHandReticle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/RightHandReticle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/Hands/FromLeftHandPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/Hands/FromLeftHandPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/Hands/FromRightHandPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/Hands/FromRightHandPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/InputOVR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/InputOVR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/TouchHandGrab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/TouchHandGrab/HandSphereMap.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/TouchHandGrab/HandSphereMap.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/TouchHandGrab/TouchHandGrabInteractor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs/TouchHandGrab/TouchHandGrabInteractor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/DistanceGrab/IDistanceInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/DistanceGrab/IDistanceInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerGrabAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerGrabAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerPinchAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/FingerPinchAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/Recording.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/Recording/HandPoseRecordable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/Recording/HandPoseRecordable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/Recording/HandPoseRecorder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/Recording/HandPoseRecorder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/BezierSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/BezierSurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/BoxSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/BoxSurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/ColliderSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/ColliderSurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/CylinderSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/CylinderSurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/ISnapSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/ISnapSurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/SnapSurfaceHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/SnapSurfaceHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/SphereSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Grab/SnapSurfaces/SphereSurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/HandPosing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Visuals.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Visuals/HandGrabInteractorVisual.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/HandPosing/Visuals/HandGrabInteractorVisual.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/DummyDataModifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/DummyDataModifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/FixedScaleDataModifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/FixedScaleDataModifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/JointRotationHistoryModifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/JointRotationHistoryModifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/LastKnownGoodDataModifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/LastKnownGoodDataModifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterPositionDataModifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterPositionDataModifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterPositionHand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterPositionHand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterRotationDataModifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterRotationDataModifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterRotationHand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/OneEuroFilterRotationHand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/SyntheticHandModifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/DataModifiers/SyntheticHandModifier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/FromHandPrefabDataSource.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/FromHandPrefabDataSource.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/HandPhysicsCapsules.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/HandPhysicsCapsules.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/JointLocking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/Hands/JointLocking.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/IAspectProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/IAspectProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/InputDataProviderUpdateTriggerOVR.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/InputDataProviderUpdateTriggerOVR.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/OVRSkeletonDataProviders.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input/OVRIntegration/OVRSkeletonDataProviders.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractableFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractableFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractableRegistry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractableRegistry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractorComparer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractorComparer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractorDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IInteractorDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IMonoBehaviourFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/IMonoBehaviourFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorComparer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorComparer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorDriverGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorDriverGroup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorGroup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorGroupMulti.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/InteractorGroupMulti.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/TagInteractableFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/TagInteractableFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/TagMonoBehaviourFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Core/TagMonoBehaviourFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/PointableGrabbableConnection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Grabbable/PointableGrabbableConnection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone/DropZoneInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone/DropZoneInteractable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone/DropZoneInteractor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone/DropZoneInteractor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone/DropZoneSequentialSlotsProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone/DropZoneSequentialSlotsProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone/IDropZoneSlotsProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/DropZone/IDropZoneSlotsProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Grab/ITween.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Grab/ITween.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/GrabPointsPoseFinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/GrabPointsPoseFinder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractionUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabInteractionUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/ISnapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/ISnapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/SnapAddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/SnapAddress.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Snap/ISnapPoseProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/Snap/ISnapPoseProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/PointableDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/PointableDelegate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/PointableGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/PointableGroup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/BoxProximityField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/BoxProximityField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/CircleProximityField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/CircleProximityField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/CylinderProximityField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/CylinderProximityField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/IProximityField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/IProximityField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/PointProximityField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/ProximityField/PointProximityField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/IPointableSurface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/IPointableSurface.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/PointableCylinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/PointableCylinder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/PointablePlane.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/PointablePlane.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/GrabPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/GrabPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/ITransformable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/ITransformable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/InteractableTransformableConnection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/InteractableTransformableConnection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandFreeTransformer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandFreeTransformer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandPhysicsJointTransformer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandPhysicsJointTransformer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandRotateTransformer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandRotateTransformer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandTranslateTransformer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/OneHandTranslateTransformer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/SnapPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/SnapPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/Transformable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/Transformable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/TwoHandFreeTransformer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/TwoHandFreeTransformer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/TwoHandPlaneTransformer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Transformable/TwoHandPlaneTransformer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/CanvasMeshPointable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/CanvasMeshPointable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/GrabbableUnityEventWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/GrabbableUnityEventWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/InteractionOVRCameraRig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/InteractionOVRCameraRig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/PhysicsTransformable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/PhysicsTransformable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/TransformableUnityEventWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/TransformableUnityEventWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityCanvas/CanvasRenderTextureMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity/UnityCanvas/CanvasRenderTextureMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Shaders/UIStyleShader.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Shaders/UIStyleShader.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Textures/Reticle-Circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Textures/Reticle-Circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Textures/Reticle-Dot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Textures/Reticle-Dot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Cube/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Cube/Materials/CubeMaterialWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Cube/Materials/CubeMaterialWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Reticles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Reticles/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Reticles/placeholder.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/HandGesture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/HandGesture.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/HandPose.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/HandPose.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-Basic.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-Basic.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-FullSynthetic.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-FullSynthetic.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/OVRIntegration/Legacy/OculusInteractionSampleRig.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs/OVRIntegration/Legacy/OculusInteractionSampleRig.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicGestures.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicGestures.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicGrab.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicGrab.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicPoke.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicPoke.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicPoseDetection.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicPoseDetection.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicRay.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/BasicRay.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/ComplexGrab.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/ComplexGrab.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/DistanceGrab.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scenes/DistanceGrab.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/ThirdParty/GradientSkybox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/ThirdParty/GradientSkybox/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/ThirdParty/GradientSkybox/LICENSE.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/ThirdParty/GradientSkybox/Skybox_ThreeColorGradient.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/ThirdParty/GradientSkybox/Skybox_ThreeColorGradient.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/ThirdParty/GradientSkybox/ThreeColorGradient.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/ThirdParty/GradientSkybox/ThreeColorGradient.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.new" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.new.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.new" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.new.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/Android/OVRPlugin.aar.disabled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/Android/OVRPlugin.aar.disabled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/AndroidOpenXR/OVRPlugin.aar.disabled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/AndroidOpenXR/OVRPlugin.aar.disabled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/AndroidUniversal/OVRPlugin.aar.disabled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/AndroidUniversal/OVRPlugin.aar.disabled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/MetaXRSimulator/SIMULATOR.dll.disabled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/MetaXRSimulator/SIMULATOR.dll.disabled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/Win/OVRPlugin.dll.disabled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/Win/OVRPlugin.dll.disabled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/Win64/OVRPlugin.dll.disabled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/Win64/OVRPlugin.dll.disabled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/Win64OpenXR/OVRPlugin.dll.disabled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.82.0/Win64OpenXR/OVRPlugin.dll.disabled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Voices/TTSWitVoiceData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Voices/TTSWitVoiceData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Voices/TTSWitVoiceUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts/Editor/Voices/TTSWitVoiceUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts/Runtime/Utilities/VoiceUnityRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts/Runtime/Utilities/VoiceUnityRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts/Runtime/Utilities/WitUnityRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts/Runtime/Utilities/WitUnityRequest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitIncomingEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitIncomingEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitOutgoingEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitOutgoingEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitRole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitRole.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitTrainingEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitTrainingEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitTrainingStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitTrainingStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitTrainingUtterance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitTrainingUtterance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/IWitHttp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/IWitHttp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/EnsureWitIntentsStep.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/EnsureWitIntentsStep.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/ObtainIdmData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/ObtainIdmData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/Payload.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/Payload.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/ProcessStep.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/ProcessStep.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/StepRunner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/StepRunner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/SyncWitEntitiesStep.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/SyncWitEntitiesStep.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/TrainUtterances.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/TrainUtterances.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/WitTrainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Training/WitTrainer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/WitHttp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/WitHttp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioEncoding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/AudioEncoding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Configuration/WitApplication.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityKeyword.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityKeyword.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityRole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitEntityRole.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Intents/WitIntent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Intents/WitIntent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Traits/WitTrait.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Traits/WitTrait.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Traits/WitTraitValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Traits/WitTraitValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioInputSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Interfaces/IAudioInputSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/Mic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/MicBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/MicBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/MicDebug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/MicDebug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/WitResponse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Lib/WitResponse.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Utilities/CoroutineUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Utilities/CoroutineUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OX1yMPlmNV8rgJuHWtmiuY49DW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45a78793-9429-4af7-8bcc-bd909c2d0c06" name="Changes" comment="" />
+      <created>1681692370148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681692370148</updated>
+      <workItem from="1681692375329" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
