@@ -342,7 +342,7 @@ RectTransform:
   m_GameObject: {fileID: 70216623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -17.69999}
-  m_LocalScale: {x: 0.79, y: 0.79, z: 0.79}
+  m_LocalScale: {x: 0.61, y: 0.61, z: 0.61}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1303420925}
@@ -1163,8 +1163,8 @@ Transform:
   m_GameObject: {fileID: 189044682}
   m_LocalRotation: {x: 0, y: -0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: -0.853, z: -0.3060001}
-  m_LocalScale: {x: 4.999999, y: 4.999999, z: 5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.83, y: 0.83, z: 0.83}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5006512736555096958}
   m_RootOrder: 0
@@ -2293,7 +2293,7 @@ RectTransform:
   m_GameObject: {fileID: 722226014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -17.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.64, y: 0.64, z: 0.64}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1343150810}
@@ -2302,7 +2302,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 96.9, y: 33}
+  m_AnchoredPosition: {x: 75.5, y: 33}
   m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722226016
@@ -3588,7 +3588,7 @@ RectTransform:
   m_GameObject: {fileID: 1230496351}
   m_LocalRotation: {x: -0, y: -0.1600081, z: -0, w: 0.98711574}
   m_LocalPosition: {x: 0, y: 0, z: 3.4999967}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 3.04, y: 3.04, z: 3.04}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1354914978}
@@ -3597,7 +3597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -18.415, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -56.5, y: 132}
+  m_AnchoredPosition: {x: -52.6, y: 109.8}
   m_SizeDelta: {x: 30, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230496353
@@ -4752,7 +4752,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 9397414}
   m_RootOrder: 0
@@ -4864,7 +4864,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.7372549, b: 0.34901962, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
