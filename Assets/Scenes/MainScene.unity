@@ -520,9 +520,9 @@ GameObject:
   - component: {fileID: 74001837}
   - component: {fileID: 74001838}
   - component: {fileID: 74001840}
-  - component: {fileID: 74001843}
   - component: {fileID: 74001842}
   - component: {fileID: 74001841}
+  - component: {fileID: 74001843}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -1103,10 +1103,10 @@ MonoBehaviour:
   m_SphereCastRadius: 0.1
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 23
+    m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
-  m_HitClosestOnly: 1
+  m_HitClosestOnly: 0
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
   m_AutoDeselect: 0
@@ -1130,9 +1130,9 @@ GameObject:
   - component: {fileID: 113839210}
   - component: {fileID: 113839211}
   - component: {fileID: 113839215}
-  - component: {fileID: 113839214}
   - component: {fileID: 113839213}
   - component: {fileID: 113839212}
+  - component: {fileID: 113839216}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -1594,7 +1594,23 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &113839214
+--- !u!54 &113839215
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113839204}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &113839216
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1697,10 +1713,10 @@ MonoBehaviour:
   m_SphereCastRadius: 0.1
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 23
+    m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
-  m_HitClosestOnly: 1
+  m_HitClosestOnly: 0
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
   m_AutoDeselect: 0
@@ -1712,22 +1728,6 @@ MonoBehaviour:
   m_TranslateSpeed: 1
   m_AnchorRotateReferenceFrame: {fileID: 0}
   m_AnchorRotationMode: 0
---- !u!54 &113839215
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113839204}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &189044682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,7 +1806,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 324538063}
 --- !u!33 &218315319
@@ -2620,6 +2620,7 @@ Transform:
   - {fileID: 5006512736555096958}
   - {fileID: 403754480}
   - {fileID: 1402592333}
+  - {fileID: 837066850}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3493,7 +3494,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1748039653}
 --- !u!33 &751571349
@@ -4249,7 +4250,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -4269,13 +4270,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837066847}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.059, y: 2.07, z: 0.648}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.9688943, y: 7.9296207, z: -19.943415}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 335415112}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &844327560
 GameObject:
@@ -5413,8 +5414,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402592332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.26}
+  m_LocalScale: {x: 0.8, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1674894278}
@@ -5838,7 +5839,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1459846176}
 --- !u!33 &1565721144
@@ -8593,7 +8594,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 726366695}
 --- !u!33 &1997045339
@@ -8931,7 +8932,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 998553659}
 --- !u!33 &1999251589
@@ -15024,16 +15025,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   magicLampGrabInteractable: {fileID: 8296172667443292527}
+  magicLamp: {fileID: 8296172667443292525}
   leftHandController: {fileID: 74001831}
+  rightHandController: {fileID: 113839204}
   wallsToAddRigidbody:
-  - {fileID: 1674894272}
   - {fileID: 2134542152}
   - {fileID: 1720647653}
   - {fileID: 1734966622}
   - {fileID: 1888545446}
   - {fileID: 771435070}
+  floor: {fileID: 1674894272}
   table: {fileID: 403754478}
   genie: {fileID: 4540228998422355573}
+  delay: 5
 --- !u!1 &8321745704017835987
 GameObject:
   m_ObjectHideFlags: 0

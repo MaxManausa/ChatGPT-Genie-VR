@@ -4,9 +4,6 @@
     <list default="true" id="45a78793-9429-4af7-8bcc-bd909c2d0c06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChatGPT-Genie-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChatGPT-Genie-VR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MagicLampActivation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MagicLampActivation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MagicLampCollision.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MagicLampCollision.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenAIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenAIController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
       <workItem from="1681767144024" duration="4663000" />
       <workItem from="1681780299571" duration="593000" />
       <workItem from="1681836503843" duration="1694000" />
-      <workItem from="1681879887916" duration="6061000" />
+      <workItem from="1681879887916" duration="7488000" />
     </task>
     <servers />
   </component>

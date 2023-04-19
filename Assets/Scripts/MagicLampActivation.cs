@@ -6,19 +6,24 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class MagicLampActivation : MonoBehaviour
 {
     [SerializeField] private XRGrabInteractable magicLampGrabInteractable;
+    [SerializeField] private GameObject magicLamp;
+    
     [SerializeField] private GameObject leftHandController;
     [SerializeField] private GameObject rightHandController;
+    
     [SerializeField] private GameObject[] wallsToAddRigidbody;
     [SerializeField] private GameObject floor;
     [SerializeField] private GameObject table;
+    
     [SerializeField] private Animator genie;
     [SerializeField] private float delay = 6f;
     
-    [SerializeField] private XRDirectInteractor leftDirectInteractor;
-    [SerializeField] private XRDirectInteractor rightDirectInteractor;
+    //[SerializeField] private XRRayInteractor leftRayInteractor;
+    //[SerializeField] private XRRayInteractor rightRayInteractor;
     
     
     private bool hasBeenActivated = false;
+    
     
     private void Update()
     {
@@ -29,7 +34,8 @@ public class MagicLampActivation : MonoBehaviour
             if (interactor != null && interactor.gameObject == leftHandController)
             {
                 hasBeenActivated = true;
-
+                Debug.Log("Did that work?");
+                
                 foreach (GameObject wall in wallsToAddRigidbody)
                 {
                     Rigidbody wallRigidbody = wall.AddComponent<Rigidbody>();
@@ -56,16 +62,7 @@ public class MagicLampActivation : MonoBehaviour
     private void ActivateGenie()
     {
         genie.gameObject.SetActive(true);
+        Destroy(magicLamp);
     }
     
-    private void AddRayInteractors()
-    {
-        if (hasBeenActivated)
-        {
-            DestroyImmediate(leftDirectInteractor);
-            DestroyImmediate(rightDirectInteractor);
-            XRRayInteractor leftRayInteractor = leftHandController.AddComponent<XRRayInteractor>();
-            XRRayInteractor rightRayInteractor = rightHandController.AddComponent<XRRayInteractor>();
-        }
-    }
 }
