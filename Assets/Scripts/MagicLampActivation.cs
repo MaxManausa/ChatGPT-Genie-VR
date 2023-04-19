@@ -1,13 +1,22 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class MagicLampActivation : MonoBehaviour
 {
     [SerializeField] private XRGrabInteractable magicLampGrabInteractable;
     [SerializeField] private GameObject leftHandController;
+    [SerializeField] private GameObject rightHandController;
     [SerializeField] private GameObject[] wallsToAddRigidbody;
+    [SerializeField] private GameObject floor;
     [SerializeField] private GameObject table;
     [SerializeField] private Animator genie;
+    [SerializeField] private float delay = 6f;
+    
+    [SerializeField] private XRDirectInteractor leftDirectInteractor;
+    [SerializeField] private XRDirectInteractor rightDirectInteractor;
+    
     
     private bool hasBeenActivated = false;
     
@@ -25,12 +34,38 @@ public class MagicLampActivation : MonoBehaviour
                 {
                     Rigidbody wallRigidbody = wall.AddComponent<Rigidbody>();
                     wallRigidbody.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
-                    wallRigidbody.AddForce(transform.forward * 500f);
+                    wallRigidbody.AddForce(transform.forward * 300f);
                     Destroy(wall, 3f);
                 }
-                Destroy(table, 5f);
-                genie.gameObject.SetActive(true);
+
+                Invoke("FloorFall", 3f);
+                Invoke("ActivateGenie", delay);
             }
+        }
+    }
+    private void FloorFall()
+    {
+        Rigidbody floorRigidbody = floor.AddComponent<Rigidbody>();
+        floorRigidbody.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
+        Destroy(floor, 3f);
+        Rigidbody tableRigidbody = table.AddComponent<Rigidbody>();
+        tableRigidbody.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
+        Destroy(table, 3f);
+    }
+    
+    private void ActivateGenie()
+    {
+        genie.gameObject.SetActive(true);
+    }
+    
+    private void AddRayInteractors()
+    {
+        if (hasBeenActivated)
+        {
+            DestroyImmediate(leftDirectInteractor);
+            DestroyImmediate(rightDirectInteractor);
+            XRRayInteractor leftRayInteractor = leftHandController.AddComponent<XRRayInteractor>();
+            XRRayInteractor rightRayInteractor = rightHandController.AddComponent<XRRayInteractor>();
         }
     }
 }
