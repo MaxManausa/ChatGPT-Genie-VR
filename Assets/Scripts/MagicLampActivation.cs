@@ -27,14 +27,13 @@ public class MagicLampActivation : MonoBehaviour
     
     private void Update()
     {
-        if (magicLampGrabInteractable.isSelected && !hasBeenActivated && leftHandController.activeInHierarchy)
+        if (magicLampGrabInteractable.isSelected && !hasBeenActivated)
         {
             XRBaseInteractor interactor = magicLampGrabInteractable.selectingInteractor;
 
             if (interactor != null && interactor.gameObject == leftHandController)
             {
                 hasBeenActivated = true;
-                Debug.Log("Did that work?");
                 
                 foreach (GameObject wall in wallsToAddRigidbody)
                 {
