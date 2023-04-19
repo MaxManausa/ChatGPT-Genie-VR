@@ -13,6 +13,7 @@ public class MagicLampActivation : MonoBehaviour
     
     [SerializeField] private GameObject[] wallsToAddRigidbody;
     [SerializeField] private GameObject floor;
+    [SerializeField] private GameObject ceiling;
     [SerializeField] private GameObject table;
     
     [SerializeField] private Animator genie;
@@ -34,6 +35,8 @@ public class MagicLampActivation : MonoBehaviour
             if (interactor != null && interactor.gameObject == leftHandController)
             {
                 hasBeenActivated = true;
+                
+                Destroy(ceiling);
                 
                 foreach (GameObject wall in wallsToAddRigidbody)
                 {
