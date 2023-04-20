@@ -73,6 +73,7 @@ public class MagicLampActivation : MonoBehaviour
 
     private void LampRelease()
     {
+        magicLamp.transform.localScale = magicLamp.transform.localScale * 2.0f;
         magicLampGrabInteractable.enabled = false;
         magicLamp.GetComponent<Rigidbody>().isKinematic = true;
         magicLamp.GetComponent<Rigidbody>().useGravity = false;
@@ -83,7 +84,6 @@ public class MagicLampActivation : MonoBehaviour
 
     private void FinalLampSpot()
     {
-        
         magicLamp.transform.position = lastLampPosition.position;
         magicLamp.transform.rotation = lastLampPosition.rotation;
     }
