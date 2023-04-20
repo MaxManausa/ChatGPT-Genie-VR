@@ -7,6 +7,8 @@ public class MagicLampActivation : MonoBehaviour
 {
     [SerializeField] private XRGrabInteractable magicLampGrabInteractable;
     [SerializeField] private GameObject magicLamp;
+    [SerializeField] private Transform newLampPosition;
+    [SerializeField] private Transform lastLampPosition;
     
     [SerializeField] private GameObject leftHandController;
     [SerializeField] private GameObject rightHandController;
@@ -17,7 +19,7 @@ public class MagicLampActivation : MonoBehaviour
     [SerializeField] private GameObject table;
     
     [SerializeField] private Animator genie;
-    [SerializeField] private float delay = 4f;
+    [SerializeField] private float delay = 5f;
     
     //[SerializeField] private XRRayInteractor leftRayInteractor;
     //[SerializeField] private XRRayInteractor rightRayInteractor;
@@ -45,7 +47,8 @@ public class MagicLampActivation : MonoBehaviour
                     wallRigidbody.AddForce(transform.forward * 300f);
                     Destroy(wall, 3f);
                 }
-
+                
+                Invoke("LampRelease",2f);
                 Invoke("FloorFall", 2f);
                 Invoke("ActivateGenie", delay);
             }
@@ -64,7 +67,25 @@ public class MagicLampActivation : MonoBehaviour
     private void ActivateGenie()
     {
         genie.gameObject.SetActive(true);
-        Destroy(magicLamp);
+        magicLamp.GetComponentInChildren<ParticleSystem>().Stop();
+        Invoke("FinalLampSpot",3f);
     }
-    
+
+    private void LampRelease()
+    {
+        magicLampGrabInteractable.enabled = false;
+        magicLamp.GetComponent<Rigidbody>().isKinematic = true;
+        magicLamp.GetComponent<Rigidbody>().useGravity = false;
+        magicLamp.transform.position = newLampPosition.position;
+        magicLamp.transform.rotation = newLampPosition.rotation;
+        magicLamp.GetComponentInChildren<ParticleSystem>().Play();
+    }
+
+    private void FinalLampSpot()
+    {
+        
+        magicLamp.transform.position = lastLampPosition.position;
+        magicLamp.transform.rotation = lastLampPosition.rotation;
+    }
+
 }

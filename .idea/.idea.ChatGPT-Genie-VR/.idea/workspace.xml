@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45a78793-9429-4af7-8bcc-bd909c2d0c06" name="Changes" comment="" />
+    <list default="true" id="45a78793-9429-4af7-8bcc-bd909c2d0c06" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChatGPT-Genie-VR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChatGPT-Genie-VR/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/StartingRoom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/StartingRoom.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MagicLampActivation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MagicLampActivation.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +94,8 @@
       <workItem from="1681780299571" duration="593000" />
       <workItem from="1681836503843" duration="1694000" />
       <workItem from="1681879887916" duration="7488000" />
+      <workItem from="1681949442437" duration="2820000" />
+      <workItem from="1681956754759" duration="3682000" />
     </task>
     <servers />
   </component>
