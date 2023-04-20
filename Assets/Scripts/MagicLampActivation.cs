@@ -17,7 +17,7 @@ public class MagicLampActivation : MonoBehaviour
     [SerializeField] private GameObject table;
     
     [SerializeField] private Animator genie;
-    [SerializeField] private float delay = 6f;
+    [SerializeField] private float delay = 4f;
     
     //[SerializeField] private XRRayInteractor leftRayInteractor;
     //[SerializeField] private XRRayInteractor rightRayInteractor;
@@ -46,7 +46,7 @@ public class MagicLampActivation : MonoBehaviour
                     Destroy(wall, 3f);
                 }
 
-                Invoke("FloorFall", 3f);
+                Invoke("FloorFall", 2f);
                 Invoke("ActivateGenie", delay);
             }
         }
