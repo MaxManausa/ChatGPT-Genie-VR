@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -26,8 +27,14 @@ public class MagicLampActivation : MonoBehaviour
     
     
     private bool hasBeenActivated = false;
-    
-    
+
+    private void Start()
+    {
+        rightHandController.GetComponent<XRInteractorLineVisual>().enabled = false;
+        leftHandController.GetComponent<XRInteractorLineVisual>().enabled = false;
+    }
+
+
     private void Update()
     {
         if (magicLampGrabInteractable.isSelected && !hasBeenActivated)
@@ -86,6 +93,10 @@ public class MagicLampActivation : MonoBehaviour
     {
         magicLamp.transform.position = lastLampPosition.position;
         magicLamp.transform.rotation = lastLampPosition.rotation;
+        
+        // turns hand raycasts on
+        rightHandController.GetComponent<XRInteractorLineVisual>().enabled = true;
+        leftHandController.GetComponent<XRInteractorLineVisual>().enabled = true;
     }
 
 }
